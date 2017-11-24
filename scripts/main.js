@@ -46,7 +46,7 @@ function printCorrectly(input){
     let out = "<pre>";
 
     for(let i=0; i<input.length; i++){
-        out += "<p>MoveL Offs(p0," + input[i].x + "," + input[i].y + ",0),v1000, z1, tool0;<br>"; 
+        out += "MoveL Offs(p0," + input[i].x + "," + input[i].y + ",0),v1000, z1, tool0;<br>"; 
     }
 	out += " !Restart (levanta a caneta) <br>"
     out +="MoveL Offs(p0," + input[0].x + "," + input[0].y + ",150),v1000, z1, tool0;<br>"; 
